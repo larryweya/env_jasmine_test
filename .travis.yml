@@ -3,4 +3,5 @@ python:
   - "2.7"
 script:
   - python test.py
+  - pwd
   - ./tests/EnvJasmine/bin/run_all_tests.sh
