@@ -3,5 +3,6 @@ python:
   - "2.7"
 script:
   - python test.py
-  - ls -l ./tests/EnvJasmine/bin/
+  - ls -l tests/
+  - ls -l ./tests
   - ./tests/EnvJasmine/bin/run_all_tests.sh
